@@ -1,0 +1,49 @@
+.form{
+  width: 300px;
+  border: 1px dashed #ccc;
+  padding: 12px;
+}
+.form-control{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.submit{
+  width: 100px;
+  height: 30px;
+  margin: 10px auto 0 auto;
+}
+.projects{
+  width: 500px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#active-id{
+  border: 1px solid yellowgreen;
+}
+
+#active-id h3{
+  color: yellowgreen;
+}
+
+.active-hover{
+  background-color: rgba(153, 205, 50, 0.1);
+}
+
+#finished-id{
+  border: 1px solid brown;
+}
+
+#finished-id h3{
+  color: brown;
+}
+
+.finished-hover{
+  background-color: rgba(165, 42, 42,0.1);
+}
+
+ul li{
+  margin: 10px 0;
+  cursor: pointer;
+}

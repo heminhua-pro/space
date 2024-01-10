@@ -5,10 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./src/app.css">
+  <script type="module" src="./dist/bundle.js"></script>
 </head>
 <body>
-  <div id="app">
-    Demo github.io
-  </div>
+  <!-- form -->
+  <template id="form-template">
+    <div class="form" id="form">
+      <div class="form-control">
+        <label for="title">Title</label>
+        <input type="text" id="title">
+      </div>
+      <div class="form-control">
+        <label for="description">Description</label>
+        <textarea id="description" rows="3"></textarea>
+      </div>
+      <div class="form-control">
+        <label for="people">People</label>
+        <input type="number" id="people">
+      </div>
+      <div class="form-control">
+        <button id="submit" class="submit">添加</button>
+      </div>
+    </div>  
+  </template>
+
+  <!-- ul -->
+  <template id="ul-template">
+    <div class="projects" id="ul">
+      <h3></h3>
+      <ul></ul>
+    </div>
+  </template>
+
+  <!-- app -->
+  <div id="app"></div>
+
 </body>
 </html>
